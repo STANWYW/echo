@@ -1,0 +1,18 @@
+{
+  "tier": "full",
+  "out_dir": "results/reference/llama2_7b_chat_main",
+  "models": [
+    "Llama_2_7b_chat_hf"
+  ],
+  "csv": "data/eval_full_520.csv",
+  "unified": false,
+  "algorithm": "src/run_obfuscation_beam_v2_trace.py",
+  "max_steps": 20,
+  "beam_width": 10,
+  "branch_factor": 5,
+  "gpu_memory_utilization": 0.75,
+  "early_stop_score": 0.8,
+  "top_k_trace": 5,
+  "run_sr": true,
+  "experiment": "main_experiment"
+}

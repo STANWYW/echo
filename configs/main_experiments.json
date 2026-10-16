@@ -1,0 +1,22 @@
+{
+  "experiment": {
+    "name": "main_experiment",
+    "operator_weights": "core=0.2258422931,periph=0.01282675773,pressure=0.5420793309,delete=0.05119949490,swap=0.1680521234",
+    "reference_mean_proxy": 0.702,
+    "reference_mean_strongreject": 0.787,
+    "reference_sr_ge_0_8": 344,
+    "reference_sr_ge_0_9": 261,
+    "reference_asr_percent": 89.2
+  },
+  "default_search": {
+    "max_goals": 520,
+    "max_steps": 20,
+    "beam_width": 10,
+    "branch_factor": 5,
+    "early_stop_score": 0.8,
+    "gpu_memory_utilization": 0.75,
+    "max_model_len": 4096,
+    "max_new_tokens": 300,
+    "top_k_trace": 5
+  }
+}
