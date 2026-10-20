@@ -4,6 +4,8 @@ This is the official code repository for **ECHO: Replacing the Compliance Proxy 
 
 Our paper has been accepted to the **EMNLP 2026 Main Conference**.
 
+The paper is available on [arXiv](https://arxiv.org/pdf/2610.23030).
+
 ECHO searches for jailbreak prompts using HarmSig, a response-harmfulness scorer based on Qwen3-1.7B.
 
 ## Run the main experiment
